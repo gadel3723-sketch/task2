@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقرير: أساسيات منصات التجارة الإلكترونية</title>
+    <style>
+        :root { --primary-color: #2563eb; --primary-hover: #1d4ed8; --bg-color: #f8fafc; --card-bg: #ffffff; --text-color: #1e293b; --text-muted: #64748b; --border-color: #e2e8f0; --accent-bg: #eff6ff; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: system-ui, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-color); line-height: 1.8; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; background: var(--card-bg); padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        header { border-bottom: 2px solid var(--border-color); padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: var(--primary-color); font-size: 2rem; margin-bottom: 10px; }
+        h2 { color: var(--text-color); font-size: 1.4rem; margin-top: 30px; margin-bottom: 15px; padding-right: 10px; border-right: 4px solid var(--primary-color); }
+        h3 { color: var(--primary-hover); font-size: 1.15rem; margin-top: 20px; margin-bottom: 10px; }
+        p { margin-bottom: 15px; color: #334155; }
+        ul { list-style: none; padding-right: 0; margin-bottom: 15px; }
+        ul li { position: relative; padding-right: 20px; margin-bottom: 8px; }
+        ul li::before { content: "•"; color: var(--primary-color); font-weight: bold; font-size: 1.2rem; position: absolute; right: 0; top: -2px; }
+        .example { background-color: var(--accent-bg); border-radius: 6px; padding: 10px 15px; font-size: 0.95rem; color: #1e40af; margin-top: 5px; margin-bottom: 15px; }
+        img { width: 100%; border-radius: 10px; margin: 15px 0; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: center; }
+        th { background: #2563eb; color: white; }
+        .references ol { padding-right: 20px; color: var(--text-muted); font-size: 0.95rem; }
+        .references li { margin-bottom: 8px; }
+        @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 1.6rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>تقرير: أساسيات منصات التجارة الإلكترونية</h1>
+            <p><strong>اسم الطالب:</strong> Ghada Adel</p>
+            <p><strong>الرقم الجامعي:</strong> 2502668</p>
+            <p><strong>المقرر:</strong> تطبيقات الإنترنت والمنصات الإلكترونية</p>
+        </header>
+        <section>
+            <h2>1. المقدمة</h2>
+            <p>أصبحت التجارة الإلكترونية (E-Commerce) ركيزة أساسية في الاقتصاد العالمي المعاصر، حيث أحدثت تحولاً جذرياً في طريقة التواصل بين الشركات والمستهلكين. لم يعد البيع والشراء مقتصراً على المتاجر التقليدية، بل أصبح بالإمكان إجراء المعاملات التجارية عبر الإنترنت خلال ثوانٍ معدودة ومن أي مكان في العالم. يُعتبر فهم أساسيات منصات التجارة الإلكترونية الخطوة الأولى لكل من يرغب في دخول هذا المجال أو تطوير نشاط تجاري رقمي متكامل.</p>
+            <img src="photo-1556742049-0cfed4f6a45d.jpeg" alt="متجر إلكتروني" width="100%">
+        </section>
+        <section>
+            <h2>2. نبذة مختصرة عن الموضوع</h2>
+            <p>منصة التجارة الإلكترونية هي برنامج أو تطبيق رقمي يتيح للأنشطة التجارية إدارة عمليات البيع، التسويق، وإدارة المنتجات عبر شبكة الإنترنت. تعمل هذه المنصات كـ "متجر افتراضي" يجمع بين البائع والمشتري، ويتولى معالجة المدفوعات، عرض المنتجات، وتسهيل الشحن والتوصيل.</p>
+        </section>
+        <section>
+            <h2>3. الأفكار الرئيسية مع الأمثلة المبسطة</h2>
+            <h3>1) نماذج التجارة الإلكترونية (Business Models)</h3>
+            <p>تتعدد أشكال المعاملات في التجارة الإلكترونية بناءً على الأطراف المشاركة:</p>
+            <table>
+                <tr><th>النوع</th><th>المعنى</th><th>مثال</th></tr>
+                <tr><td>B2C</td><td>من شركة إلى مستهلك</td><td>Amazon - Shopee</td></tr>
+                <tr><td>B2B</td><td>من شركة إلى شركة</td><td>Alibaba</td></tr>
+                <tr><td>C2C</td><td>من مستهلك إلى مستهلك</td><td>OLX - OpenSooq</td></tr>
+            </table>
+            <ul><li><strong>من شركة إلى مستهلك (B2C):</strong> بيع المنتجات مباشرة للجمهور.</li></ul>
+            <div class="example"><strong>مثال مبسط:</strong> شراء نعل أو ملابس من موقع مثل Shopee أو Amazon.</div>
+            <ul><li><strong>من شركة إلى شركة (B2B):</strong> معاملات تجارية بين شركات أو تجار جملة.</li></ul>
+            <div class="example"><strong>مثال مبسط:</strong> مصنع ملابس يبيع كميات كبيرة لمتاجر تجزئة عبر منصة مثل Alibaba.</div>
+            <ul><li><strong>من مستهلك إلى مستهلك (C2C):</strong> بيع المنتجات المستعملة أو الشخصية بين الأفراد.</li></ul>
+            <div class="example"><strong>مثال مبسط:</strong> شخص يبيع هاتفه القديم لشخص آخر عبر OpenSooq أو OLX.</div>
+            <h3>2) المكونات الأساسية لمنصة التجارة الإلكترونية</h3>
+            <p>لكي تعمل المنصة بكفاءة، يجب أن تحتوي على المكونات التالية:</p>
+            <ul>
+                <li><strong>واجهة المتجر (Front-end):</strong> الجزء الذي يراه الزائر (الصفحة الرئيسية، صفحات المنتجات، عربة التسوق).</li>
+                <li><strong>لوحة التحكم (Back-end):</strong> النظام الذي يديره صاحب المتجر لإضافة المنتجات، متابعة المخزون، ومعالجة الطلبات.</li>
+                <li><strong>بوابة الدفع الإلكتروني (Payment Gateway):</strong> النظام الأمني لتشفير ومعالجة أموال العملاء.</li>
+            </ul>
+            <div class="example"><strong>مثال مبسط:</strong> استخدام Stripe أو Paypal أو Fawry لإتمام الدفع ببطاقة البنك.</div>
+            <h3>3) كيفية اختيار المنصة المناسبة</h3>
+            <p>تختلف منصات التجارة الإلكترونية حسب حجم المشروع والخبرة التقنية:</p>
+            <ul>
+                <li><strong>المنصات الجاهزة (Hosted / SaaS):</strong> لا تتطلب خبرة برمجة وتتكفل المنصة بالاستضافة والصيانة.<br><em>أمثلة: Shopify أو Salla (سلة) أو Zid (زد).</em></li>
+                <li style="margin-top: 10px;"><strong>المنصات مفتوحة المصدر (Open-Source):</strong> تمنح تحكماً كاملاً ولكن تتطلب معرفة تقنية بالاستضافة والبرمجة.<br><em>أمثلة: WooCommerce (على WordPress) أو Magento.</em></li>
+            </ul>
+            <h3>4) مقومات نجاح منصة التجارة الإلكترونية</h3>
+            <ul>
+                <li><strong>تجربة مستخدم سهلة (UX/UI):</strong> تصميم مريح وتصفح سريع للبحث عن المنتجات والشراء بضغطات قليلة.</li>
+                <li><strong>الأمان وسرية البيانات:</strong> تشفير البيانات وحمايتها عبر شهادات الأمان (SSL).</li>
+                <li><strong>التوافق مع الهواتف المحمولة:</strong> التأكد من أن المتجر يعمل بكفاءة عالية على الشاشات الصغيرة (Mobile-Responsive).</li>
+            </ul>
+        </section>
+        <section class="references">
+            <h2>4. المراجع (References)</h2>
+            <ol>
+                <li><a href="https://en.wikipedia.org/wiki/E-commerce">Wikipedia - E-commerce</a></li>
+                <li><a href="https://www.shopify.com/learn">Shopify Academy - Introduction to E-Commerce</a></li>
+                <li><a href="https://www.w3schools.com/html/">W3Schools - تعلم HTML</a></li>
+                <li><a href="https://www.statista.com/topics/871/online-shopping/">Statista - Global E-commerce Market</a></li>
+            </ol>
+        </section>
+    </div>
+</body>
+</html>
